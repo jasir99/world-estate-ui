@@ -1,0 +1,9 @@
+.map-switch {
+  position: absolute;
+  z-index: 2;
+  right: 50px;
+}
+
+.ui.button.blue {
+  width: 30px;
+}

@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  padding: 15px 20px;
+  color: black;
+  background-color: #c93654;
+  color: #fff;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}

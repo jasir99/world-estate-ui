@@ -1,0 +1,36 @@
+.marker-list-container {
+  margin-bottom: 100px;
+}
+
+.marker-container {
+  border: 2px solid #f0eeeb;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding: 3% 3%;
+}
+
+.marker-img img {
+  width: 200px;
+  height: 130px;
+  margin-top: 25px;
+}
+
+.marker-img {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.marker-content {
+  display: inline-block;
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .marker-container {
+    text-align: center;
+  }
+}

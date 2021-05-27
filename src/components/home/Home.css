@@ -1,0 +1,52 @@
+.top-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.ui.grid {
+  margin-right: 14px;
+}
+
+.marker-preview {
+  margin: 3% 7%;
+  color: #fff;
+}
+
+.close-icon {
+  text-align: right;
+}
+
+.close-icon button {
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+.marker-preview-overlay {
+  position: fixed;
+  background-color: #000;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+.preview-img img {
+  width: 180px;
+}
+
+.preview-img {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.preview-content {
+  display: inline-block;
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .marker-preview {
+    text-align: center;
+  }
+}

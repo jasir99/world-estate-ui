@@ -1,0 +1,25 @@
+.post-button {
+  position: fixed;
+  z-index: 1;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.ui.button {
+  width: 20%;
+  background-color: #c93654;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .ui.button {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .ui.button {
+    width: 55%;
+  }
+}

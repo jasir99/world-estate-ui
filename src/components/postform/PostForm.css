@@ -1,0 +1,128 @@
+.form-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.ui.form {
+  margin: 0 20%;
+  font-size: 1.1rem;
+}
+
+.image-field {
+  text-align: center;
+  color: #c93654;
+  padding: 3% 0;
+  font-weight: 600;
+}
+
+.image-preview {
+  width: 150px;
+  height: 100px;
+}
+
+.ui.grid {
+  justify-content: center;
+}
+.ui.button.image-upload {
+  background-color: #c93654;
+  color: white;
+  width: 20%;
+}
+.ui.button.image-upload:hover {
+  opacity: 0.5;
+}
+
+.ui.form > .field {
+  margin-bottom: 5%;
+}
+
+.ui.form > .field > label {
+  padding-left: 10px;
+}
+
+.ui.form > .field > input {
+  border: 0;
+  outline: 0;
+  margin-top: 10px;
+  background: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+.ui.form > .field > input:focus {
+  border-bottom: 1px solid red;
+  border-radius: 0;
+}
+
+.results-div {
+  width: 100%;
+}
+
+.sugg-item {
+  padding: 1% 2%;
+}
+
+.ui.form > .field > textarea {
+  border: 0;
+  outline: 0;
+  margin-top: 10px;
+  background: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+.ui.form > .field > textarea:focus {
+  border-bottom: 1px solid red;
+  border-radius: 0;
+}
+
+@media (max-width: 991px) {
+  .ui.button.image-upload {
+    width: 25%;
+  }
+
+  .ui.form > .field {
+    margin-bottom: 3%;
+  }
+  .ui.form {
+    margin: 0 10%;
+  }
+
+  .image-preview {
+    width: 100px;
+    height: 70px;
+    margin-bottom: 5%;
+  }
+  .image-field {
+    padding-bottom: 8%;
+  }
+}
+
+@media (max-width: 576px) {
+  .ui.button.image-upload {
+    width: 35%;
+  }
+  .ui.form > .field {
+    margin-bottom: 6%;
+  }
+  .ui.form {
+    margin: 0 10%;
+  }
+  .image-preview {
+    width: 100px;
+    height: 70px;
+    margin-bottom: 5%;
+  }
+  .image-field {
+    padding-bottom: 8%;
+  }
+}
+
+@media (max-width: 440px) {
+  .ui.button.image-upload {
+    width: 45%;
+  }
+  .ui.form > .field {
+    margin-bottom: 9%;
+  }
+}
